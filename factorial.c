@@ -2,12 +2,13 @@
 
 int main() {
     int n;
+    int i;
     unsigned long long factorial = 1;
 
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    for(int i = 1; i <= n; ++i) {
+    for( i = 1; i <= n; ++i) {
         factorial *= i;
     }
 
