@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &n);
 
     for(int i = 1; i <= n; ++i) {
-        factorial *= i-1;
+        factorial *= i+1;
     }
 
     printf("Factorial of %d = %llu\n", n, factorial);
