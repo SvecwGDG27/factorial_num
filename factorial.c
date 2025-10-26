@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    long n;
     unsigned long long factorial = 1;
 
     printf("Enter a number: ");
-    scanf("%d", &n);
+    scanf("%ld", &n);
 
     for(int i = 1; i <= n; ++i) {
         factorial *= i;
@@ -14,3 +14,4 @@ int main() {
     printf("Factorial of %d = %llu\n", n, factorial);
     return 0;
 }
+
